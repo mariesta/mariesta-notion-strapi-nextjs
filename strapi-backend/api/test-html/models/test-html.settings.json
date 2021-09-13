@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_htmls",
+  "info": {
+    "name": "testHTML"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "json"
+    }
+  }
+}

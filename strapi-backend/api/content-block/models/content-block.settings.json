@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_blocks",
+  "info": {
+    "name": "Content Block",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "page": {
+      "via": "content_blocks",
+      "model": "page"
+    }
+  }
+}
